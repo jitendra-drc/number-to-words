@@ -91,7 +91,3 @@ const numberToWords = (number) => {
 
     return words.reverse().join(' ').trim();
 };
-
-// Example usage
-const text = numberToWords(1111);
-console.log(text); // Output: one thousand one hundred eleven
